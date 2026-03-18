@@ -9,17 +9,17 @@ def limpiar():
     os.system("cls")
 os.system("cls")
 num = random.randint(0,2)
-lista=["Maradona", "Trump", "Maduro"]
+lista=["Maradona", "Messi", "Cristiano"]
 for i in lista:
     print(f"hola {i} estas invitado a mi fiesta")
 limpiar()
 print(f"el invitado {lista[num]} no puede asistir a tu fiesta")
 lista.pop(num)
 limpiar()
-print("nuevos invitados: mirta, peter parker y capusoto")
+print("nuevos invitados: mirta, peter parker y batman")
 limpiar()
 lista.insert(0,"mirta")
-lista.append("capusoto")
+lista.append("batman")
 lista.insert(2,"peter parker")
 print(f"los invitados son:")
 for i in lista:
