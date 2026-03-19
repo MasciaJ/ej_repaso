@@ -6,3 +6,4 @@ personas_enviadas = []
 
 for persona in personas:
     saludar(persona)
+    personas_enviadas.append(persona)
