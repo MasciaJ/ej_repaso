@@ -1,0 +1,5 @@
+En Python podes manejar datos con tipos simples como int, float y str.
+En Python podes automatizar tareas con bucles for y while.
+En Python podes organizar codigo con funciones y clases.
+En Python podes trabajar con archivos usando open(), read() y write().
+En Python podes usar librerias para casi cualquier necesidad (numerica, web, graficos, etc.).

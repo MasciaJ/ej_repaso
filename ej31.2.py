@@ -9,17 +9,17 @@ class Loteria:
         return self.ganadores
 
     def mostrar_resultado(self):
-        if not hasattr(self, 'ganadores'):
-            raise ValueError('Debe seleccionar ganadores primero')
-        print('--- RESULTADO LOTERÍA ---')
-        print(f'Bolsa completa: {self.bolsa}')
-        print(f'Ganadores (4 elementos): {self.ganadores}')
-        print('Cualquier boleto que contenga estos 4 elementos gana un premio.')
+        if not hasattr(self, "ganadores"):
+            raise ValueError("Debe seleccionar ganadores primero")
+        print("--- RESULTADO LOTERÍA ---")
+        print(f"Bolsa completa: {self.bolsa}")
+        print(f"Ganadores (4 elementos): {self.ganadores}")
+        print("Cualquier boleto que contenga estos 4 elementos gana un premio.")
 
 
 
-numeros = (10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
-letras = ('A', 'B', 'C', 'D', 'E')
+numeros = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+letras = ("A", "B", "C", "D", "E")
 
 sorteador = Loteria(numeros, letras)
 seleccionados = sorteador.seleccionar_ganadores(4)
